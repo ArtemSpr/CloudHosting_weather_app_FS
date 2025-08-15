@@ -8,6 +8,7 @@ app.Run();
 
 string HelloMethod()
 {
-    var message = "MoIkKa!";
+    var message = System.IO.File.ReadAllText("./hello.txt");
+
     return message;
 }
