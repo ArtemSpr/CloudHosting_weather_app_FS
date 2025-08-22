@@ -22,3 +22,6 @@ string GetHello()
     var message = System.IO.File.ReadAllText(helloPath);
     return message;
 }
+
+//? Deploy with
+//& az webapp up --name mega-best-net24s -g test1 --location westeurope --runtime "DOTNETCORE|8.0" --sku B1 --os-type linux

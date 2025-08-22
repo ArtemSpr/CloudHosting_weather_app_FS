@@ -3,3 +3,5 @@ GET http://localhost:5062/
 GET http://localhost:5062/hellous/
 ###
 GET http://localhost:5062/admin/
+###
+GET http://mega-best-net24s.azurewebsites.net/
